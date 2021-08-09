@@ -4,7 +4,7 @@ section .data
 	response db "Hello, "
 	lengthR equ $ - response
 
-section .bss		;seccion usada para reservar memoria
+section .bss		; seccion usada para reservar memoria
 	name resb 16	;reservamos 16 bytes con el label 'name'
 
 section .text
