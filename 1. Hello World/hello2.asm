@@ -3,7 +3,7 @@ section .data
     length equ $ - text
 
 section .text
-    global _start
+    global _start   ;OBLIGATORIO
 
 _start:
 
