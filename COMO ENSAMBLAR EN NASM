@@ -1,0 +1,3 @@
+nasm -f elf64 -o filename.o filename.asm    //ensambla --> lo pasa a codigo objeto
+ld filename.o -o filename                   //linkea   --> completa las referencias a otros archivos fuente
+./filename                                  //ejecuta
